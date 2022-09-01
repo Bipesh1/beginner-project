@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;400;500&display=swap');
+*{
+    margin: 0;
+}
+header{
+    background-color: #0f171e;
+    height: 80px;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header img{
+    width: 100px;
+    position: absolute;
+    transform: scale(1.1);
+    left: 4rem;
+    cursor: pointer;
+
+}
+.navbar{
+    color: grey;
+    position: absolute;
+    right:0rem;
+    display: flex;
+    width: 20%;
+    justify-content:space-evenly;
+    font-family: 'Noto Sans', sans-serif;
+    align-items: center;
+
+}
+.navbar span{
+    font-family:serif;
+    font-weight: lighter;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-family: 'Noto Sans', sans-serif;
+    cursor: pointer;
+}
+.navbar i{
+    cursor: pointer;
+}
+.navbar i span{
+    font-weight: 300;
+}
+.middle{
+    width: 100vw;
+    height:70vh;
+    position: relative;
+    overflow: hidden;
+    color: white;
+}
+.middle .text{
+    color: white;
+    position: absolute;
+    left: 4rem;
+    top: 4rem;
+    z-index: 2;
+    font-family: 'Noto Sans', sans-serif;
+    width: 40%;
+    font-size: 20px;
+    
+
+}
+.middle .text h1{
+    font-weight: 500;
+}
+
+.middle .text p{
+    font-size: 21px;
+    margin-top: 2rem;
+    font-weight: 300;
+}
+.text #line{
+    margin-top: 1rem;
+    position: relative;
+    max-width: 280px;
+    text-align: center;
+    font-size: 14px;
+}
+#line::before{
+    content:" ";
+    display: block;
+    height: 1px;
+    width: 120px;
+    position: absolute;
+    top: 63%;
+    left: 3px;
+    background: white;
+}
+#line::after{
+    content:" ";
+    display: block;
+    height: 1px;
+    width: 120px;
+    position: absolute;
+    top: 63%;
+    right: 5px;
+    background: white;
+}
+.text button{
+    background-color: rgb(23, 124, 207);
+    padding:1rem;
+    color: white;
+    width: 270px;
+    border-radius: 2px;
+    margin-top: 2rem;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: inherit;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.text #btn1{
+    margin-top: 1rem;
+}
+.text #membership{
+    font-size: 16px;
+}
+
+.container{
+    background: url("https://www.techadvisor.com/wp-content/uploads/2022/06/best-tv-shows-on-amazon-prime.jpg?quality=50&strip=all") no-repeat center;
+    background-size: cover;
+    height:70vh;
+    width: 70vw;
+    position: absolute;
+    right: 0;
+}
+.middle::after{
+    content: "";
+    background: black;
+    height:70vh;
+    width: 35vw;
+    position: absolute;
+    box-shadow: 5px 0px 100px 150px rgb(0, 0, 0);
+    
+}
+
+.bottom{
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+.bottom div{
+    width: 33%;
+    margin-top: 3rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 300;
+
+}
+footer{
+    height: 150px;
+    background:rgb(33, 33, 33);
+    display: flex;
+    /* justify-content: center; */
+    margin-top: 4rem;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    color: grey;
+    font-family: 'Noto Sans', sans-serif;
+}
+footer img{
+    width: 110px;
+    height: 33px;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+footer span{
+    color: rgb(28, 114, 242);
+}
+
